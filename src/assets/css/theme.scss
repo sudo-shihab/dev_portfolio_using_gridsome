@@ -1,0 +1,26 @@
+.theme-forest {
+	.app-bg-primary {
+		@apply bg-app-green-500;
+	}
+	.app-primary {
+		@apply bg-green-500 text-white;
+	}
+}
+
+.theme-sky {
+	.app-bg-primary {
+		@apply bg-blue-500 text-gray-900;
+	}
+	.app-primary {
+		@apply bg-blue-500 text-gray-900;
+	}
+}
+
+.theme-dark {
+	.app-bg-primary {
+		@apply bg-black text-white;
+	}
+	.app-primary {
+		@apply bg-black;
+	}
+}
