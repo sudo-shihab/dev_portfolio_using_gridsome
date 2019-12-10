@@ -17,7 +17,7 @@
 7. there you are , now follow the normal gridsome workflow by running cmd `gridsome develop` to start a local dev server at `http://localhost:8080`
 8. Happy coding 🎉🙌
 
-###3 Features
+### 3. Features
 
 Tailwind + gridsome,
 Postcss autoPrefixer,
