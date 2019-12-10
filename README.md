@@ -16,3 +16,10 @@
 6. run `yarn install` or `npm install `to install dependencies
 7. there you are , now follow the normal gridsome workflow by running cmd `gridsome develop` to start a local dev server at `http://localhost:8080`
 8. Happy coding 🎉🙌
+
+###3 Features
+
+Tailwind + gridsome,
+Postcss autoPrefixer,
+css Purging,
+Theme configuration setup ( you can go to file `@src/styles/scss/theme.scss` and you can add your color scheme and change the name of the theme according to your naming convention)
