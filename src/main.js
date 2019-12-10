@@ -7,6 +7,7 @@
 // app level imports
 // scripts imports
 import { getUrlParam } from '~/scripts/commons/Utils.js';
+import { CACHED } from '~/scripts/commons/Constants.js';
 // Component Imports
 import DefaultLayout from '~/layouts/Default.vue';
 
@@ -14,8 +15,8 @@ import DefaultLayout from '~/layouts/Default.vue';
 // global level / lib imports
 
 //in app level imports
-import '@/assets/css/main.css';
-import '@/assets/css/theme.scss';
+import '@/styles/css/main.css';
+import '@/styles/scss/theme.scss';
 
 /* ****************** JS BLOCKS **************** */
 
@@ -30,12 +31,12 @@ const clearLocalStorage = () => localStorage.clear();
 // @Executable Live functions
 
 //clear the cache
-// clearLocalStorage();
+clearLocalStorage();
 
 // Set default layout as a global component
 if (getThemeName() != null || '') {
 	const themeName = getThemeName();
-	localStorage.setItem('CURRENT_THEME', themeName);
+	localStorage.setItem(CACHED.CURRENT_THEME, themeName);
 }
 
 export default function(Vue, { router, head, isClient }) {

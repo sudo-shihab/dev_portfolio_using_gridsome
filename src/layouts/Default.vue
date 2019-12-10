@@ -24,6 +24,8 @@ query {
 </static-query>
 
 <script>
+import { CACHED } from "@/scripts/commons/Constants.js";
+
 export default {
   data() {
     return {
@@ -31,8 +33,8 @@ export default {
     };
   },
   created() {
-    if ("CURRENT_THEME" in localStorage) {
-      this.appTheme = localStorage.getItem("CURRENT_THEME");
+    if (CACHED.CURRENT_THEME in localStorage) {
+      this.appTheme = localStorage.getItem(CACHED.CURRENT_THEME);
     }
   }
 };
