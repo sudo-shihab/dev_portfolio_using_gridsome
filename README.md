@@ -19,7 +19,7 @@
 
 ### 3. Features
 
-Tailwind + gridsome,
-Postcss autoPrefixer,
-css Purging,
-Theme configuration setup ( you can go to file `@src/styles/scss/theme.scss` and you can add your color scheme and change the name of the theme according to your naming convention)
+1. Tailwind + gridsome,
+2. Postcss autoPrefixer,
+3. css Purging,
+4. Theme configuration setup ( you can go to file `@src/styles/scss/theme.scss` and you can add your color scheme and change the name of the theme according to your naming convention)
