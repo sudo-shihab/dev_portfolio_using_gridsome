@@ -1,6 +1,6 @@
 <template>
   <div class="layout p-8 min-h-screen" :class="[appTheme]" id="app-active-layout">
-    <div class="app-bg-primary">
+    <div class="app-primary-set">
       <header class="header">
         <strong>
           <g-link to="/">{{ $static.metadata.siteName }}</g-link>
@@ -31,7 +31,9 @@ export default {
     };
   },
   created() {
-    this.appTheme = localStorage.getItem("CURRENT_THEME");
+    if ("CURRENT_THEME" in localStorage) {
+      this.appTheme = localStorage.getItem("CURRENT_THEME");
+    }
   }
 };
 </script>

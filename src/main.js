@@ -6,15 +6,15 @@
 
 // app level imports
 // scripts imports
-import { getUrlParam } from '@/scripts/commons/Utils.js';
+import { getUrlParam } from '~/scripts/commons/Utils.js';
 // Component Imports
 import DefaultLayout from '~/layouts/Default.vue';
 
 /* ****************** CSS BASE IMPORTS **************** */
 // global level / lib imports
 
-//app level imports
-import '@/app.css';
+//in app level imports
+import '@/assets/css/main.css';
 import '@/assets/css/theme.scss';
 
 /* ****************** JS BLOCKS **************** */
